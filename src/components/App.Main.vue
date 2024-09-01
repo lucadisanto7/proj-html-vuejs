@@ -79,6 +79,40 @@ export default {
             <div class="background-2">
                 <div class="container">
                     <h2 class="white-text pt-150 fs-50">Anidio Quick Facts</h2>
+                    <div class="row mt-5">
+                        <div class="col-3">
+                            <div class="content">
+                                <div class="cstm-card text-center">
+                                    <h2 class="white-text fs-50">700+</h2>
+                                    <span class="orange-text">Projects done</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="content">
+                                <div class="cstm-card text-center">
+                                    <h2 class="white-text fs-50">250+</h2>
+                                    <span class="orange-text">Happy Clients</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="content">
+                                <div class="cstm-card text-center">
+                                    <h2 class="white-text fs-50">25+</h2>
+                                    <span class="orange-text">Team Members</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="content">
+                                <div class="cstm-card text-center">
+                                    <h2 class="white-text fs-50">12+</h2>
+                                    <span class="orange-text">Years on the market</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -164,5 +198,10 @@ export default {
         text-align: center;
         padding-top: 100px;
     }
-
+    .cstm-card{
+        border: 1px solid rgba(251, 145, 255, 0.295);
+        border-radius: 20px;
+        padding: 40px 50px;
+        width: 280px;
+    }
 </style>
