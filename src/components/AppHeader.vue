@@ -121,6 +121,7 @@
     gap: 20px;
     justify-content: center;
     margin-top: 70px;
+    margin-bottom: 250px;
 }
 
 .label {
