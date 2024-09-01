@@ -1,13 +1,13 @@
-<template lang="">
-    <div>
-        
-    </div>
-</template>
 <script>
 export default {
     
 }
 </script>
-<style lang="">
+<template>
+    <main>
+        
+    </main>
+</template>
+<style lang="scss">
     
 </style>

@@ -11,6 +11,7 @@
                             <img src="../imgs/globe3.png" alt="Planet 3" class="planet-image planet-3">
                             <img src="../imgs/dots-right.png" alt="Dots right" class="planet-image dots-right">
                             <img src="../imgs/dots-left.png" alt="Dots left" class="planet-image dots-left">
+                            <img src="../imgs/light.png" alt="Ufo" class="planet-image ufo">
                         </div>
                         <ul class="list">
                             <li> <a class="list-itm white-text" href="">Home</a></li>
@@ -196,6 +197,12 @@
     top: 50px;
     left: 3%;
     width: 800px;
+    z-index: -1;
+}
+.ufo{
+    top: 100px;
+    right: 7%;
+    width: 140px;
     z-index: -1;
 }
 </style>
