@@ -70,6 +70,9 @@ export default {
                     </div>
                 </div>
             </div>
+            <div class="rocket-container">
+                <img src="../imgs/smart4.png" alt="rocket" class="rocket-img">
+            </div>
         </div>
     </main>
 </template>
@@ -81,9 +84,6 @@ export default {
         position: relative;
         z-index: 0;        
         height: 150px;
-      }
-    .content{
-        position: relative;
     }
     .middle{
         position: absolute;
@@ -137,8 +137,12 @@ export default {
     }
     .smart-container{
         position: absolute;
-        left: -250px;
-        top: -500px;
+        left: 0px;
+        top: 1100px;
         z-index: -1;
+    }
+    .rocket-img{
+        position: absolute;
+        right: 0px;
     }
 </style>
