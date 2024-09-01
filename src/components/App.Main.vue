@@ -20,7 +20,14 @@ export default {
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-4">
+                    <div class="content">
+                        <div class="smart-container">
+                            <img src="../imgs/smart.png" alt="smart">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 float-right mt-5">
                     <div class="content">
                         <div class="card yellow-gradient" style="width: 280px;">
                             <div class="icon-container">
@@ -34,7 +41,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-2 ml-85 mt-5">
                     <div class="content">
                         <div class="card blue-gradient" style="width: 280px;">
                             <div class="icon-container">
@@ -48,7 +55,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-2 ml-85 mt-5">
                     <div class="content">
                         <div class="card red-gradient" style="width: 280px;">
                             <div class="icon-container">
@@ -75,6 +82,9 @@ export default {
         z-index: 0;        
         height: 150px;
       }
+    .content{
+        position: relative;
+    }
     .middle{
         position: absolute;
         top: 50%;
@@ -121,5 +131,14 @@ export default {
     }
     .card-img-top{
         width: 100px;
+    }
+    .ml-85{
+        margin-left: 85px;
+    }
+    .smart-container{
+        position: absolute;
+        left: -250px;
+        top: -500px;
+        z-index: -1;
     }
 </style>
