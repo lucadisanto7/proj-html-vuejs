@@ -120,6 +120,12 @@ export default {
     </main>
 </template>
 <style lang="scss">
+    *{
+        box-sizing: border-box;
+    }
+    main{
+        overflow-x: hidden;
+    }
     .bg-flip{
         background-color: #50108f;
         background-image: url('../imgs/bottom-shape.png');
@@ -186,10 +192,12 @@ export default {
     }
     .rocket-img{
         position: absolute;
-        right: 0px;
+        right: 10px;
+
     }
     .shape-top{
         position: absolute;
+        width: 100vw;
     }
     .background-2{
         background-image: url('../imgs/counter-bg.png');
@@ -210,6 +218,7 @@ export default {
     .shape-bot{
         position: absolute;
         bottom: -1700px;
-        width: 100%
+        width: 100vw;
+        height: auto;
     }
 </style>
