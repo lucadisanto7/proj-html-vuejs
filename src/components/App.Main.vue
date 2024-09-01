@@ -20,9 +20,9 @@ export default {
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-3">
                     <div class="content">
-                        <div class="card" style="width: 280px;">
+                        <div class="card yellow-gradient" style="width: 280px;">
                             <div class="icon-container">
                                 <img src="../imgs/smart1.png" class="card-img-top" alt="...">
                             </div>
@@ -31,7 +31,35 @@ export default {
                               <p class="card-text">We constantly ask questions. It helps us shape your story and deliver the results you
                                 crave. Yep, we'll drill deep to deliver above and beyond your expectations..</p>
                             </div>
-                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="content">
+                        <div class="card blue-gradient" style="width: 280px;">
+                            <div class="icon-container">
+                                <img src="../imgs/smart2.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h2 class="purple-text mb-3">Collaboration</h2>
+                              <p class="card-text">We constantly ask questions. It helps us shape your story and deliver the results you
+                                crave. Yep, we'll drill deep to deliver above and beyond your expectations..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="content">
+                        <div class="card red-gradient" style="width: 280px;">
+                            <div class="icon-container">
+                                <img src="../imgs/smart3.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h2 class="purple-text mb-3">Creativity</h2>
+                              <p class="card-text">We constantly ask questions. It helps us shape your story and deliver the results you
+                                crave. Yep, we'll drill deep to deliver above and beyond your expectations..</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -68,7 +96,16 @@ export default {
         font-weight: 100;
     }
     .card{
-        border-radius: 40px;    
+        border-radius: 40px;
+    }
+    .yellow-gradient{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(250, 201, 95, 0.233)); 
+    }
+    .blue-gradient{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(95, 131, 250, 0.233)); 
+    }
+    .red-gradient{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(250, 95, 95, 0.233)); 
     }
     .card-body{
         width: 270px;
