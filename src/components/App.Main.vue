@@ -79,7 +79,7 @@ export default {
             <div class="background-2">
                 <div class="container">
                     <h2 class="white-text pt-150 fs-50">Anidio Quick Facts</h2>
-                    <div class="row mt-5">
+                    <div class="row mt-5 pb-40">
                         <div class="col-3">
                             <div class="content">
                                 <div class="cstm-card text-center">
@@ -115,6 +115,7 @@ export default {
                     </div>
                 </div>
             </div>
+            <img src="../imgs/shape-bottom.png" alt="" class="shape-bot">
         </div>
     </main>
 </template>
@@ -192,7 +193,6 @@ export default {
     }
     .background-2{
         background-image: url('../imgs/counter-bg.png');
-        height: 500px;
     }
     .pt-150{
         text-align: center;
@@ -203,5 +203,13 @@ export default {
         border-radius: 20px;
         padding: 40px 50px;
         width: 280px;
+    }
+    .pb-40{
+        padding-bottom: 120px;
+    }
+    .shape-bot{
+        position: absolute;
+        bottom: -1700px;
+        width: 100%
     }
 </style>
