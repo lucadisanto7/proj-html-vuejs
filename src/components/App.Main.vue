@@ -74,6 +74,14 @@ export default {
                 <img src="../imgs/smart4.png" alt="rocket" class="rocket-img">
             </div>
         </div>
+        <div class="mt-350">
+            <img src="../imgs/shape-top.png" alt="" class="shape-top">
+            <div class="background-2">
+                <div class="container">
+                    <h2 class="white-text pt-150 fs-50">Anidio Quick Facts</h2>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 <style lang="scss">
@@ -145,4 +153,16 @@ export default {
         position: absolute;
         right: 0px;
     }
+    .shape-top{
+        position: absolute;
+    }
+    .background-2{
+        background-image: url('../imgs/counter-bg.png');
+        height: 500px;
+    }
+    .pt-150{
+        text-align: center;
+        padding-top: 100px;
+    }
+
 </style>
