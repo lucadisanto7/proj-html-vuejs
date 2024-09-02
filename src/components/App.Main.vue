@@ -163,7 +163,7 @@ export default {
                                         </div>
                                     </div>
                                     <div class="card-body text-center">
-                                        <h2 class="purple-text mb-3">Pre- Production</h2>
+                                        <h2 class="purple-text mb-3">Pre-Production</h2>
                                         <p class="card-text">We'll take your idea and <br> create a technical script <br> which consists of action <br> notes and animation <br> descriptions</p>
                                     </div>
                                 </div>
@@ -195,6 +195,15 @@ export default {
                             </div>
                         </div>                                     
                     </div>
+                </div>
+            </div>
+            <div class="row mt-150">
+                <div class="col-12">
+                    <div class="content text-center">
+                        <h3 class="violet-text">Anidio Magic Team Member</h3>
+                        <h2 class="fs-50 purple-text">Let Us Animate Your <br> Project </h2>
+                        <h5 class="mt-4 fw-100">We create new worlds!Let's collaborate and create engaging, effective, <br> award-winning animations</h5>
+                    </div>    
                 </div>
             </div>
         </div>

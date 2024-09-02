@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+html, main, header, footer{
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
