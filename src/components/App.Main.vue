@@ -207,6 +207,8 @@ export default {
                 </div>
             </div>
             <div class="row">
+                <img src="../imgs/shape.png" alt="" class="pos-absolute">
+                <img src="../imgs/shape2.png" alt="" class="pos-absolute-2">
                 <div class="col-4">
                     <div class="content mt-150">
                         <div class="card bg-yellow-card">
@@ -598,5 +600,17 @@ export default {
 }
 .grey-text{
     color: #9a9ebf;
+}
+.pos-absolute{
+    position: absolute;
+    width: 800px;
+    left: -10px;
+    top: 5600px;
+}
+.pos-absolute-2{
+    position: absolute;
+    width: 800px;
+    right: -10px;
+    top: 5600px;
 }
 </style>
