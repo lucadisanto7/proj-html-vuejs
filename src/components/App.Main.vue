@@ -116,7 +116,7 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="container mt-350">
+        <div class="container mt-150">
             <div class="row">
                 <div class="col-12">
                     <div class="content text-center">
@@ -144,7 +144,47 @@ export default {
             </div>
             <div class="just-center mt-5">
                 <a href="" class="list-itm"><p class="label-light purple-text text-center"> See Our Work</p></a>
-            </div>    
+            </div>  
+            <div class="row mt-150">
+                <div class="col-6">
+                    <img src="../imgs/process-thumb.png" alt="" class="process-thumb">
+                </div>
+                <div class="col-6">
+                    <div class="content">
+                        <h3 class="violet-text">Our Process</h3>
+                        <h2 class="fs-50 purple-text">Our Process for <br> Your Animation <br> Production</h2>
+                        <h5 class="mt-4 fw-100">We have an effective process for working on animation.</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card br-20 mt-5" style="width: 100%;">
+                                    <div class="icon-container">
+                                        <div class="yellow-bg">
+                                            <img src="../imgs/process2.png" class="card-img-top" alt="..." style="width: 70px;">
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h2 class="purple-text mb-3">Pre- Production</h2>
+                                        <p class="card-text">We'll take your idea and <br> create a technical script <br> which consists of action <br> notes and animation <br> descriptions</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card br-20 mt-5" style="width: 100%;">
+                                    <div class="icon-container">
+                                        <div class="yellow-bg">
+                                            <img src="../imgs/process1.png" class="card-img-top" alt="..." style="width: 70px;">
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h2 class="purple-text mb-3">Scripting</h2>
+                                        <p class="card-text">We'll take your idea and <br> create a technical script <br> which consists of action <br> notes and animation <br> descriptions</p>
+                                    </div>
+                                </div>       
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </template>
@@ -253,5 +293,21 @@ export default {
     .just-center{
         display: flex;
         justify-content: center;
+    }
+    .process-thumb{
+        position: absolute;
+        left: -200px;
+    }
+    .mt-150{
+        margin-top: 150px;
+    }
+    .yellow-bg{
+        background-color: #fef5f0;
+        border-radius: 100%;
+        padding: 35px;
+    }
+    .br-20{
+        border-radius: 20px;
+        border: 1px solid #50108f23;
     }
 </style>
