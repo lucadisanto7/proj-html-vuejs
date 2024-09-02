@@ -311,6 +311,30 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="mt-150">
+            <img src="../imgs/shape-top.png" alt="" class="shape-top">
+            <div class="background-2">
+                <div class="container">
+                    <h2 class="orange-text pt-150">We Create New Worlds!</h2>
+                    <div class="row mt-5 pb-40">
+                        <div class="col-12">
+                            <div class="content text-center white-text">
+                                <h2 class="fs-50">Want Tips On Your <br> Storytelling?</h2>
+                                <h5>Join our newsletter for tips on how to elevate your brand through storytelling</h5>
+                                <div class="form-wrap">
+                                    <form class="d-flex justify-content-center align-items-center">
+                                        <div class="input-group email-form" style="max-width: 600px;">
+                                            <input type="email" class="form-control email-input" placeholder="Enter your email" aria-label="Email address">
+                                            <button type="submit" class="btn btn-submit">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>       
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 <style lang="scss">
@@ -501,4 +525,31 @@ export default {
     border-radius: 100%;
     padding: 4px;
 }
+.email-form {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    margin-top: 80px
+}
+.email-input {
+    border: none;
+    border-radius: 30px 0 0 30px; 
+    padding: 15px 20px;
+    width: 100%; 
+    font-size: 16px; 
+    outline: none; 
+}
+.btn-submit {
+    background-color: #FECACA;
+    color: white; 
+    border: none; 
+    padding: 15px 30px; 
+    border-radius: 0 30px 30px 0;
+    cursor: pointer; 
+    font-size: 16px; 
+}
+.btn-submit:hover {
+    background-color: #f89b9b;
+}
+
 </style>
