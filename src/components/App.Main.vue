@@ -274,6 +274,42 @@ export default {
                     </div>
                 </div>       
             </div>
+            <div class="row mt-150">
+                <div class="col-12">
+                    <div class="content text-center">
+                        <h3 class="violet-text">Why Anidio studio?</h3>
+                        <h2 class="fs-50 purple-text">We Love Our Clients</h2>
+                        <h5 class="mt-4 fw-100">We are trusted throughout adland and have a wealth of reccomendations <br> from start-ups to renowned global brands</h5>
+                    </div>   
+                </div>
+            </div>
+            <div class="row mt-5 just-center">
+                <div class="col-2">
+                    <div class="content">
+                        <img src="../imgs/sponsor5.png" alt="">
+                    </div>    
+                </div>
+                <div class="col-2">
+                    <div class="content">
+                        <img src="../imgs/sponsor6.png" alt="">
+                    </div>    
+                </div>
+                <div class="col-2">
+                    <div class="content">
+                        <img src="../imgs/sponsor1.png" alt="">
+                    </div>    
+                </div>
+                <div class="col-2">
+                    <div class="content">
+                        <img src="../imgs/sponsor2.png" alt="">
+                    </div>    
+                </div>
+                <div class="col-2">
+                    <div class="content">
+                        <img src="../imgs/sponsor3.png" alt="">
+                    </div>    
+                </div>
+            </div>
         </div>
     </main>
 </template>
