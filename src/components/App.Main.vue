@@ -116,6 +116,33 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="container mt-350">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content text-center">
+                        <h3 class="violet-text">Our Works</h3>
+                        <h2 class="fs-50 purple-text">Featured Productions</h2>
+                        <h5 class="mt-4 fw-100">Here's just a small sample of some of these projects that we're quite proud of. <br> If you're looking for something specific feel free to get in contact with us.</h5>
+                    </div>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mt-5">
+                    <img src="../imgs/work1.png" alt="work-1">
+                </div>
+                <div class="col-6 mt-5">
+                    <img src="../imgs/work2.png" alt="work-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mt-5">
+                    <img src="../imgs/work3.png" alt="work-1">
+                </div>
+                <div class="col-6 mt-5">
+                    <img src="../imgs/work4.png" alt="work-2">
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 <style lang="scss">
