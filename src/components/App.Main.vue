@@ -182,6 +182,18 @@ export default {
                                 </div>       
                             </div>                  
                         </div>
+                        <div class="arrow-container-wrapper">
+                            <div class="arrow-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="arrow-icon bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                                </svg>
+                            </div>
+                            <div class="arrow-container rotate-180">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="arrow-icon bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                                </svg>
+                            </div>
+                        </div>                                     
                     </div>
                 </div>
             </div>
@@ -313,4 +325,31 @@ export default {
         border-radius: 20px;
         border: 1px solid #50108f23;
     }
+    .arrow-container-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .arrow-container {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(128, 128, 128, 0.219);
+        filter: invert(98%) sepia(0%) saturate(211%) hue-rotate(246deg) brightness(88%) contrast(86%);
+    }
+    
+    .arrow-icon {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .rotate-180 {
+        transform: rotate(180deg);
+    }
+    
 </style>
