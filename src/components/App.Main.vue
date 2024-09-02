@@ -142,6 +142,9 @@ export default {
                     <img src="../imgs/work4.png" alt="work-2">
                 </div>
             </div>
+            <div class="just-center mt-5">
+                <a href="" class="list-itm"><p class="label-light purple-text text-center"> See Our Work</p></a>
+            </div>    
         </div>
     </main>
 </template>
@@ -240,5 +243,15 @@ export default {
     }
     .pb-40{
         padding-bottom: 60px;
+    }
+    .label-light{
+        border: 1px solid #50108f31;
+        padding: 11px;
+        width: 150px;
+        border-radius: 30px;
+    }
+    .just-center{
+        display: flex;
+        justify-content: center;
     }
 </style>
