@@ -384,6 +384,15 @@ export default {
     .red-gradient{
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(250, 95, 95, 0.233)); 
     }
+    .yellow-gradient:hover{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(250, 201, 95, 0.233)); 
+    }
+    .blue-gradient:hover{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(95, 131, 250, 0.233)); 
+    }
+    .red-gradient:hover{
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(250, 95, 95, 0.233)); 
+    }
     .card-body{
         width: 270px;
         font-size: 18px;
@@ -476,7 +485,12 @@ export default {
         justify-content: center;
         align-items: center;
         border: 1px solid rgba(128, 128, 128, 0.219);
-        filter: invert(98%) sepia(0%) saturate(211%) hue-rotate(246deg) brightness(88%) contrast(86%);
+        color: rgba(128, 128, 128, 0.658);
+    }
+    .arrow-container:hover{
+        background-color: orange;
+        transition: 0.3s;
+        cursor: pointer;   
     }
     .arrow-icon {
         width: 34px;
@@ -524,6 +538,11 @@ export default {
     border: 1px solid rgba(128, 128, 128, 0.342);
     border-radius: 100%;
     padding: 4px;
+}
+.social:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.3s;
 }
 .email-form {
     border-radius: 30px;

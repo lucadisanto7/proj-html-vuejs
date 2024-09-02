@@ -102,6 +102,10 @@
     z-index: 3;
 }
 
+.list-itm:hover{
+    color: #FF7A1F;
+    transition: 0.3s;
+}
 .fs-23{
     font-size: 23px;
 }
@@ -131,6 +135,13 @@
     box-shadow: 0 0 8px #FFDFED;
     z-index: 3;
     font-size: 18px;
+}
+
+.label:hover{
+    background-color: #311862;
+    border: 1px solid #FFDFED;
+    z-index: 3;
+    color: white;
 }
 
 .label-dark{
