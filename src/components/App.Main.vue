@@ -115,7 +115,6 @@ export default {
                     </div>
                 </div>
             </div>
-            <img src="../imgs/shape-bottom.png" alt="" class="shape-bot">
         </div>
     </main>
 </template>
@@ -213,12 +212,6 @@ export default {
         width: 280px;
     }
     .pb-40{
-        padding-bottom: 120px;
-    }
-    .shape-bot{
-        position: absolute;
-        bottom: -1700px;
-        width: 100vw;
-        height: auto;
+        padding-bottom: 60px;
     }
 </style>
