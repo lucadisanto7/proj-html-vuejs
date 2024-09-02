@@ -171,7 +171,7 @@ export default {
                             <div class="col-6">
                                 <div class="card br-20 mt-5" style="width: 100%;">
                                     <div class="icon-container">
-                                        <div class="yellow-bg">
+                                        <div class="yellow-bg-2">
                                             <img src="../imgs/process1.png" class="card-img-top" alt="..." style="width: 70px;">
                                         </div>
                                     </div>
@@ -301,10 +301,13 @@ export default {
     .mt-150{
         margin-top: 150px;
     }
-    .yellow-bg{
+    .yellow-bg, .yellow-bg-2{
         background-color: #fef5f0;
         border-radius: 100%;
         padding: 35px;
+    }
+    .yellow-bg-2{
+        padding: 42px 35px;
     }
     .br-20{
         border-radius: 20px;
